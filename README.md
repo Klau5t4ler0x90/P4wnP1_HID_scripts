@@ -11,7 +11,7 @@ Get the following hardware:
 * usb shield for raspberry pi zero
 * Micro SD card (32GB+)
 
-Download the finished image from P4wnP1 Aloa and load it onto the SD card using an imager.
+Download the finished image from [P4wnP1-A.L.O.A](https://github.com/RoganDawes/P4wnP1_aloa/releases/tag/v0.1.1-beta) and load it onto the SD card using an imager.
 
 Then connect to the Wifi of the nine P4wnP1 stick:
 * ssid 💥🖥💥 Ⓟ➃ⓌⓃ🅟❶
