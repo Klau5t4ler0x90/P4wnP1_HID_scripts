@@ -25,7 +25,25 @@ Now you can insert the HID scripts via the tab.
 
 Alternatively, you can also use SSH. To do this, store the scripts in the HIDScripts folder.
 
-### Acknowledgments
+## LocalStorage
+Another great way to work with the P4wnP1:
+
+As soon as the USB stick is plugged into a computer, it not only pretends to be a keyboard and mouse. It pretends to be a web interface and listens to incoming connections 172.16.0.1
+
+As an experienced hacker, you know that you can not only access the stick via SSH, but also start the Apache web server, which is installed on the Kali by default.
+
+All scripts can be stored locally here. This way you can ensure that you can also run your tests on client systems that cannot connect to the Internet for security reasons.
+
+Feel free to store whatever program you like on the P4wnP1:
+* WinPEAS.bat
+* Seatbelt.exe
+* LaZagne.exe
+* Winpwn.ps1
+
+This is a have to. Now you can use a trigger script and execute scripts from the local webserver.
+
+
+## Acknowledgments
 
 I would like to thank [RoganDawes](https://github.com/RoganDawes/P4wnP1_aloa) for making this possible. 
 
@@ -34,3 +52,5 @@ I would also like to thank the developers of the scripts who support us in our w
 * [peass-ng / PEASS-ng](https://github.com/peass-ng/PEASS-ng)
 * [SpecterOps / BloodHound-Legacy](https://github.com/SpecterOps/BloodHound-Legacy)
 * [enjoiz / Privesc](https://github.com/enjoiz/Privesc)
+* [AlessandroZ / LaZagne](https://github.com/AlessandroZ/LaZagne)
+* [S3cur3Th1sSh1t / WinPwn](https://github.com/S3cur3Th1sSh1t/WinPwn)
