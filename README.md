@@ -42,6 +42,12 @@ Feel free to store whatever program you like on the P4wnP1:
 
 This is a have to. Now you can use a trigger script and execute scripts from the local webserver.
 
+## Support me
+
+If you like my helpful scripts:
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/klau5t4ler0x90)
+
 
 ## Acknowledgments
 
