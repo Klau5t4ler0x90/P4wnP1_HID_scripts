@@ -57,7 +57,7 @@ function hidDownAndIEX() {
   press("ENTER");
 }
 
-layout('us');			// DE keyboard layout
+layout('de');			// DE keyboard layout
 fast();
 
 startPS();
